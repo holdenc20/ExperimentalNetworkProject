@@ -8,38 +8,38 @@
           <p>A company focused on democratizing the access to accurate, safe and fast image guidance, to unlock the use of image guidance directly at the point-of-care, and to enable new treatments in cases such as emergenciies and bedside precedure.</p> 
         </div>
         <div class="col-md-6" style="text-align: center;">
-          <img src="img/CTImage1.png" alt="Example CT image with hemorrhage" width="200" height="200" align="center" style="border: 1px solid black;">
+          <img src="CTImage1.png" alt="Example CT image with hemorrhage" width="200" height="200" align="center" style="border: 1px solid black;">
         </div>
       </div>
       <br/>
       <h5>The CT Image Data Set</h5>
       <p>512x512 CT image scans labeled with locatiions of the hemorrhage in the brain and pixel coordinates of the outline of the hemorrhage.</p>
-      <img src="img/CTImage3.png" alt="Types of CT hemorrhages" width="100%" height="500" align="center" style="border: 1px solid black;"> 
+      <img src="CTImage3.png" alt="Types of CT hemorrhages" width="100%" height="500" align="center" style="border: 1px solid black;"> 
         <h5>Attempt 1: Standard Neural Network</h5>
         <ul style="text-align: left;">
           <li>Small-scale first attempt</li>
           <li>200 of each type of hemorrhaging</li>
           <li>Using sequential keras model</li>
         </ul>
-        <img src="img/CTNN.png" alt="Standard Neural Network Results" width="60%" height="400" align="center" style="border: 1px solid black;"> 
+        <img src="CTNN.png" alt="Standard Neural Network Results" width="60%" height="400" align="center" style="border: 1px solid black;"> 
         <h5>Attempt 2: Visual Transformer</h5>
         <p>This did not work...</p>
         <h5>Attempt 3: Transfer Learning - VGG16</h5>
         <p>VGG16 is a convolutional neural network model proposed by K. Simonyan and A. Zisserman from the University of Oxford in the paper "Very Deep Concolutional Networks for Large-Scale Image Recognition".</p>
-        <img src="img/CTImage4.png" alt="VGG16" width="60%" height="400" align="center" style="border: 1px solid black;">
+        <img src="CTImage4.png" alt="VGG16" width="60%" height="400" align="center" style="border: 1px solid black;">
         <div style="display:inline; justify-content: center; flex-direction:row; align-items: center;">  
-          <img src="img/CTImage5.png" alt="VGG16" width="45%" height="300" align="center" style="border: 1px solid black;">
-          <img src="img/CTImage6.png" alt="VGG16" width="45%" height="300" align="center" style="border: 1px solid black;">
+          <img src="CTImage5.png" alt="VGG16" width="45%" height="300" align="center" style="border: 1px solid black;">
+          <img src="CTImage6.png" alt="VGG16" width="45%" height="300" align="center" style="border: 1px solid black;">
         </div>
         <h5>Attempt 4: Transfer Learning - ResNet</h5>
         <p>A convolutional neural network model with a residual block</p>
         <div style="display:inline; justify-content: center; flex-direction:row; align-items: center;">
-           <img src="img/CTImage7.png" alt="ResNet" width="45%" height="350" align="center" style="border: 1px solid black;">
-          <img src="img/CTImage8.png" alt="ResNet" width="45%" height="350" align="center" style="border: 1px solid black;">
+           <img src="CTImage7.png" alt="ResNet" width="45%" height="350" align="center" style="border: 1px solid black;">
+          <img src="CTImage8.png" alt="ResNet" width="45%" height="350" align="center" style="border: 1px solid black;">
         </div>
         <div style="display:inline; justify-content: center; flex-direction:row; align-items: center;">  
-          <img src="img/CTImage9.png" alt="ResNet" width="45%" height="350" align="center" style="border: 1px solid black;">
-          <img src="img/CTImage10.png" alt="ResNet" width="45%" height="350" align="center" style="border: 1px solid black;">
+          <img src="CTImage9.png" alt="ResNet" width="45%" height="350" align="center" style="border: 1px solid black;">
+          <img src="CTImage10.png" alt="ResNet" width="45%" height="350" align="center" style="border: 1px solid black;">
         </div>
         <h5>Main Takeaways</h5>
         <ul style="text-align: left;">
