@@ -5,7 +5,7 @@
           <h5>Goal</h5>
           <p>Using a dataset of brain CT images provided by a company called Zeta Surgical, we will develop models to accurately classify and segment brain hemorrhages in these CT images.</p>
           <h5>Zeta Surgical</h5>
-          <p>A company focused on democratizing the access to accurate, safe and fast image guidance, to unlock the use of image guidance directly at the point-of-care, and to enable new treatments in cases such as emergenciies and bedside precedure.</p> 
+          <p>A company focused on democratizing the access to accurate, safe and fast image guidance, to unlock the use of image guidance directly at the point-of-care, and to enable new treatments in cases such as emergencies and bedside precedure.</p> 
         </div>
         <div class="col-md-6" style="text-align: center;">
           <img src="CTImage1.png" alt="Example CT image with hemorrhage" width="200" height="200" align="center" style="border: 1px solid black;">
