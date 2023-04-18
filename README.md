@@ -45,7 +45,7 @@
         <ul style="text-align: left;">
           <li>Our fourth attempt produced the best results for our data set, with a good accuracy of about 55-60% and no over fitting issues with the ResNet model.</li>
           <li>Despite the improved results seen with ResNet, accuracy was still below 60% which is not ideal for a medical implementation.</li>
-          <li>Medical data is very difficult to apply current machine learning methods on, and moore development is required in this area before we can begin to see reliable results.</li>
+          <li>Medical data is very difficult to apply current machine learning methods on, and more development is required in this area before we can begin to see reliable results.</li>
           <li>We are also restricted by the processing power of our computers as processing even fairly small amounts of this data was slow.</li>
         </ul>
         <h5>Future implementation</h5>
